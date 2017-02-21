@@ -1,0 +1,24 @@
+.banner {
+  //background-color: red;
+}
+.brand {
+  @include text-hide();
+  display: block;
+  margin: 2rem auto;
+  padding: 0;
+  width: rem-calc(620/4);
+  height: rem-calc(387/4);
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: auto 99%;
+  background-position: center;
+  //background-color: red;
+  @include breakpoint(tablet) {
+    margin: 5% auto;
+  }
+
+  @include breakpoint(large) {
+    width: rem-calc(620/3);
+    height: rem-calc(387/3);
+  }
+}
