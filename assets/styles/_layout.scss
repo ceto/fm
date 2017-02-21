@@ -6,35 +6,10 @@ html {
 }
 body {
 }
-
-//.row hack
-// .row {
-//   @include breakpoint(tablet) {
-//     padding-left: 2%;
-//     padding-right: 2%;
-//     & & {
-//       padding-left: 0;
-//       padding-right: 0;
-//     }
-//   }
-//   @include breakpoint(large) {
-//     padding-left: 5%;
-//     padding-right: 5%;
-//   }
-//   @include breakpoint(xlarge) {
-//     padding-left: 6%;
-//     padding-right: 6%;
-//   }
-//   @include breakpoint(xxlarge) {
-//     padding-left: 7%;
-//     padding-right: 7%;
-//   }
-// }
-
 .row {
   @include breakpoint(medium) {
     max-width: 85%;
-    & & {
+    .floatingside &, & & {
       max-width: $global-width;
     }
   }
@@ -95,4 +70,15 @@ body {
     border: 2px solid rgba(#fff,.75);
     pointer-events: none;
   }
+}
+
+
+
+.reveal.floatingside {
+  float:right;
+  max-width:rem-calc(420);
+  height: 100vh;
+  min-height: 100vh;
+  border:none;
+  box-shadow: 0 0 3rem 0 rgba(#000,.25);
 }

@@ -36,6 +36,15 @@
 
 @font-face {
     font-family: 'Bw Quinta Pro';
+    src: url('../fonts/bwquintapro-light.woff2') format('woff2'),
+         url('../fonts/bwquintapro-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bw Quinta Pro';
     src: url('../fonts/bwquintapro-lightitalic.woff2') format('woff2'),
          url('../fonts/bwquintapro-lightitalic.woff') format('woff');
     font-weight: 300;

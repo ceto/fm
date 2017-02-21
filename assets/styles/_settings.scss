@@ -212,7 +212,7 @@ $accordion-content-padding: 1rem;
 // 8. Accordion Menu
 // -----------------
 
-$accordionmenu-arrows: true;
+$accordionmenu-arrows: false;
 $accordionmenu-arrow-color: $primary-color;
 $accordionmenu-arrow-size: 6px;
 
@@ -412,8 +412,8 @@ $mediaobject-image-width-stacked: 100%;
 // --------
 
 $menu-margin: 0;
-$menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+$menu-margin-nested: 50%;
+$menu-item-padding: 1em 1rem;
 $menu-item-color-active: $white;
 $menu-item-background-active: get-color(primary);
 $menu-icon-spacing: 0.25rem;
@@ -507,7 +507,7 @@ $reveal-padding: $global-padding;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;
-$reveal-overlay-background: rgba($black, 0.45);
+$reveal-overlay-background: rgba($black, .45);
 
 // 30. Slider
 // ----------

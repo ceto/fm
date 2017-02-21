@@ -21,7 +21,7 @@
       <h2 class="floatingtitle">Our Services</h2>
       <p class="lead">Dolor sit amet, consectetur adipisicing elit. Ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem assumenda perferendis nostrum velit eaque, quis, ea ex aliquam sequi, obcaecati voluptate possimus non voluptas accusamus quod corrupti fugit, inventore minus!</p>
       <section class="service ps ps--narrow">
-        <h3 class="accentttile">Pragmatic Leadership Training</h3>
+        <h3 class="accenttitle">Pragmatic Leadership Training</h3>
         <h4>For Whom</h4>
         <p>For leaders who understand that true leadership is not based on authority and "knowing better", but creating an emphatic and inspiring atmosphere that helps others grow and feel meaningful.</p>
         <h4>What do you get?</h4>
@@ -30,7 +30,7 @@
         <p>Specific personal development at the field of choice.Highly improved soft skills. Emerging inner values. Transparent communication and coaching skills. New habit of choice. A slightly better life.</p>
       </section>
       <section class="service ps ps--narrow">
-        <h3 class="accentttile">Transparent Communication</h3>
+        <h3 class="accenttitle">Transparent Communication</h3>
         <h4>For Whom</h4>
         <p>For teams and organisations that are bored of the classic teambuilding processes and look for a brief and effective method of making a team better.</p>
         <h4>What do you get?</h4>
@@ -39,7 +39,7 @@
         <p>A more effective team. Significant improvement in communication and teamwork. Personal development processes for each member related to the common goal of the team.</p>
       </section>
       <section class="service ps ps--narrow">
-        <h3 class="accentttile">Mind Management</h3>
+        <h3 class="accenttitle">Mind Management</h3>
         <h4>For Whom</h4>
         <p>For managers and executives who want true personal transformation guided by a coach and supported by stakeholders, with scaleable results and a change in the personal narrative as well.</p>
         <h4>What do you get?</h4>
