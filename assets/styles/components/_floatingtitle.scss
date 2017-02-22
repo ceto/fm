@@ -1,0 +1,21 @@
+.floatingtitle {
+    text-transform: uppercase;
+    &:after {
+      display: block;
+      content:'_'
+    }
+    @include breakpoint(xlarge) {
+        font-size: 1.125rem;
+
+        position: absolute;
+
+        width: 11rem;
+        margin: 0;
+        padding: 0 1.5rem 0 0;
+
+        transform: translateX(-11rem) translateY(.125rem);
+
+
+        //background-color: red;
+    }
+}
