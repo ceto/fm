@@ -24,11 +24,9 @@ use Roots\Sage\Wrapper;
           </aside><!-- /.sidebar -->
         <?php endif; ?>
     </div><!-- /.wrap -->
-    <?php
-      do_action('get_footer');
-      get_template_part('templates/footer');
-      get_template_part('templates/floatingside');
-      wp_footer();
-    ?>
+    <?php do_action('get_footer'); ?>
+    <?php get_template_part('templates/footer'); ?>
+    <?php get_template_part('templates/floatingside'); ?>
+    <?php wp_footer(); ?>
   </body>
 </html>
