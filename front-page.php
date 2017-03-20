@@ -21,18 +21,25 @@
       <h2 class="floatingtitle">Our Services</h2>
       <p class="lead">Dolor sit amet, consectetur adipisicing elit. Ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem assumenda perferendis nostrum velit eaque, quis, ea ex aliquam sequi, obcaecati voluptate possimus non voluptas accusamus quod corrupti fugit, inventore minus!</p>
       <section class="service ps ps--narrow">
-        <h3 class="accenttitle">Pragmatic Leadership Training</h3>
-        <h4>For Whom</h4>
-        <p>For leaders who understand that true leadership is not based on authority and "knowing better", but creating an emphatic and inspiring atmosphere that helps others grow and feel meaningful.</p>
-        <h4>What do you get?</h4>
-        <p>A six-day, practice-oriented, small-group training, focused attention from two of our professionals, and a comforatble atmosphere with supervison after the program.</p>
-        <h4>What will be the result?</h4>
+        <h3 class="accenttitle">Pragmatic Leadership Training<br><small>for Leaders</small></h3>
+        <p class="lead">For leaders who understand that true leadership is not based on authority and "knowing better", but creating an emphatic and inspiring atmosphere that helps others grow and feel meaningful.</p>
+
+        <div class="row">
+          <div class="columns large-6">
+          <h4>What do you get?</h4>
+                    <p>A six-day, practice-oriented, small-group training, focused attention from two of our professionals, and a comforatble atmosphere with supervison after the program.</p>
+          </div>
+          <div class="columns large-6">
+                            <h4>What will be the result?</h4>
         <p>Specific personal development at the field of choice.Highly improved soft skills. Emerging inner values. Transparent communication and coaching skills. New habit of choice. A slightly better life.</p>
+          </div>
+        </div>
+
+
       </section>
       <section class="service ps ps--narrow">
-        <h3 class="accenttitle">Transparent Communication</h3>
-        <h4>For Whom</h4>
-        <p>For teams and organisations that are bored of the classic teambuilding processes and look for a brief and effective method of making a team better.</p>
+        <h3 class="accenttitle">Transparent Communication<br><small>for Teams and Organizations</small></h3>
+        <p class="lead">For teams and organisations that are bored of the classic teambuilding processes and look for a brief and effective method of making a team better.</p>
         <h4>What do you get?</h4>
         <p>A two-time 3 hours long coaching session each followed by a 2 month follow up period.</p>
         <h4>What will be the result?</h4>
