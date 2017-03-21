@@ -1,37 +1,27 @@
-.membercard {
+.valuecard {
   text-align: center;
   margin: 10% auto;
 }
 
-.membercard__fig {
+.valuecard__icon {
   margin:0 auto 1.75rem;
-  img {
-    width: 55%;
-    border-radius: 50%;
-  }
-
 }
 
-.membercard__name {
-  font-size: 1.125rem;
-  margin:0 auto .5em;
-  line-height: 1;
-}
-.membercard__role {
+.valuecard__name {
   font-size: .875rem;
   line-height: 1;
   text-transform: uppercase;
-  margin:0 auto 1.75em;
+  margin:0 auto 1.5em;
   &:after {
     content: '';
     display: block;
     height: 1px;
-    width: 1.5em;
+    width: 1em;
     background-color: currentColor;
     margin:1.5em auto 0;
   }
 }
 
-.membercard__bio {
+.valuecard__descr {
   text-align: left;
 }

@@ -1,7 +1,7 @@
 <footer class="ps sitefooter">
   <div class="row">
     <div class="columns text-center">
-      <p>&copy; <?= date(Y) ?> FROMINGMINDS &middot;  All rights reserved</p>
+      <p>&copy; <?= date(Y) ?> FORMINGMINDS &middot;  All rights reserved</p>
 
     </div>
   </div>

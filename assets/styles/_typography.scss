@@ -1,12 +1,33 @@
+h5 {
+  font-weight: $global-weight-bold;
+  font-style: italic;
+}
+h6 {
+  font-weight: $global-weight-bold;
+}
+
+.lead {
+  margin-bottom: 2rem;
+}
 .accenttitle {
   border:1px solid currentColor;
-  display: inline-block;
+  display: block;
   padding: .75em 1em .666em;
+  margin:0 auto 1.75em;
   line-height: 1.25;
   font-weight: 700;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.125rem;
+  max-width: 18em;
   @include breakpoint(tablet) {
     font-size: 1.25rem;
+    //max-width: 18em;
+  }
+  small {
+    display: block;
+    color:inherit;
+    font-weight: $global-weight-normal;
+    line-height: inherit;
+    font-style: italic;
   }
 }

@@ -1,5 +1,9 @@
 html {
   //overflow-y: scroll;
+  font-size: 87.5%;
+  @include breakpoint(medium) {
+    font-size: 100%;
+  }
   @include breakpoint(xxlarge) {
     font-size: 112.5%;
   }
@@ -7,6 +11,8 @@ html {
 body {
 }
 .row {
+  max-width: 95%;
+
   @include breakpoint(medium) {
     max-width: 85%;
     .floatingside &, & & {
@@ -30,16 +36,16 @@ body {
   padding-top: 4rem;
   padding-bottom: 4rem;
   @include breakpoint(large) {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: calc(4rem + 4vh);
+    padding-bottom: calc(4rem + 4vh);
   }
 }
 .ps--narrow {
   padding-top: 2rem;
   padding-bottom: 2rem;
   @include breakpoint(large) {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: calc(2rem + 2vh);
+    padding-bottom: calc(2rem + 2vh);
   }
 }
 

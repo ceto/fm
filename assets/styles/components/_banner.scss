@@ -17,7 +17,7 @@
     margin: 5% auto;
   }
 
-  @include breakpoint(large) {
+  @include breakpoint(xlarge) {
     width: rem-calc(620/3);
     height: rem-calc(387/3);
   }
